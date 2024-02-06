@@ -32,7 +32,8 @@ $("#btn-no").click(function(){
 $("#btn-yes").click(function(){
     $("body").css("background-color", "#fff");
     $("#question-text").text("Я знал, что ты не сможешь отказать мне! Я тебя люблю!");    
-    $("#img-input").attr("src", "assets/result.webp");
+    $("#img-input1").addClass("d-none");
+    $("#img-input2").removeClass("d-none");
     $("#to-hide").hide();
 })
 
